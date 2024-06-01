@@ -1,0 +1,12 @@
+# Program to find the area of a right-angled triangle
+a = 5
+b = 6
+c = 7
+
+# Calculate the semi-perimeter
+s = (a + b + c) / 2
+
+# Calculate the area using Heron's formula
+area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
+
+print("The area of the triangle is:", round(area, 2))
